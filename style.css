@@ -1,0 +1,267 @@
+header{
+    background-color: #4aaaa5;
+    border-color: #cccccc;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    float:left;
+
+}
+
+hr{
+    padding: 1px solid lightslategrey;
+}
+h1{
+    background-color: #4aaaa5;
+}
+
+nav{
+    float:right;
+}
+
+h2{
+    color:#4aaaa5
+}
+
+span{
+    text-align: center;
+    width: 100px;
+    position: relative; top: 30px;
+    margin: 20px;
+    font-weight: 900;
+}
+
+/* .vertical-line{
+    border-right: solid grey;
+    padding: 20px;
+} */
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+ 
+}
+
+body{
+    width: 960px;
+    background-color: #ffffff;
+    border-color: #dddddd;
+    margin: auto;
+    background-image:url(./assets/images/astronomy.jpg);
+    background-repeat: repeat;
+    border: 1px;
+}
+
+.images{
+    min-width:50px;
+    height:50px;
+    float:left;
+}
+
+.group .form-group{
+    padding-bottom:15px;
+}
+
+.group label{
+    display:block;
+    text-align:left;
+}
+
+.group input[type="text"]{
+    padding: 4px;
+    width:940px;
+}
+
+.group textarea{
+    width: 940px;
+    height: 200px;
+    padding:4px;
+}
+
+.button{
+    background-color:#4aaaa5;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+.block1{
+    float:left;
+    width:50%;
+    padding: 8px;
+    border: 1px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.block2 {
+    float:left;
+    width:50%;
+    padding: 8px;
+    border: 1px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.block{
+    float:left;
+    width:50%;
+    padding: 8px;
+    border: 1px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+/* ///----for portfolio page----/// */
+#container {
+    background-color:whitesmoke;
+    width:100%;
+    margin:5,0;
+    border:1px;
+    box-sizing:border-box;
+    height: 100%;
+    float: left;
+}
+
+/* hr{
+    padding:none;
+    margin-bottom:10px;
+} */
+
+#container2 {
+    background-color:whitesmoke;
+    width:100%;
+    margin: 5px 0px;
+    padding:5px;
+    box-sizing:border-box;
+}
+
+/* ///----Header and Nav bar-------/// */
+#container1{
+    background-color:whitesmoke;
+    width:100%;
+    border:1px 1px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    
+}
+
+.text-block1 {
+    position: absolute;
+    background-color:#4aaaa5;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    top:200px;
+    width:62.5%;
+    padding:10px;
+}
+
+.text-block2 {
+    position: absolute;
+    background-color:#4aaaa5;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    top:200px;
+    width:62.5%;
+    padding:10px;
+}
+
+.text-block {
+    position: absolute;
+    background-color:#4aaaa5;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    top:200px;
+    width:62.5%;
+    padding:10px;
+}
+
+.footer{
+    margin-top:1px;
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+    width:150%;
+    padding:10px;
+    Position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align:center;
+}
+
+@media screen and (max-width:768px){
+    body{ 
+        background-color:white;
+    }
+
+    #container1{
+        padding: 5px;
+        max-width:740px;
+        
+    }
+
+    .footer{
+        padding:5px;
+        max-width:740px;
+    }
+
+    #container2{
+        padding:5px;
+        max-width:740px;
+    }
+
+    .text-block{
+    width:82.2%;
+    }
+
+    .text-block1{
+    width:82.2%;
+    }
+
+    .text-block2{
+    width:82.2%;
+    }
+
+    #container{
+        padding:5px;
+        max-width:740px;
+    }
+
+}
+@media screen and (max-width: 600px){
+
+body{
+    background-color:white;
+}
+
+#container1{
+    padding:5px;
+    max-width:550px;
+}
+
+.footer{
+    padding:5px;
+    max-width:550px;
+}
+
+#container2{
+    padding:5px;
+    max-width:550px;
+
+}
+
+#container{
+    padding:5px;
+    max-width:550px;
+}
+
+}
