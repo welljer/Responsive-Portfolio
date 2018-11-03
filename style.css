@@ -264,4 +264,11 @@ body{
     max-width:550px;
 }
 
+.group input[type="type"]{
+    width:530px;
+}
+
+.group textarea{
+    width: 530px;
+}
 }
