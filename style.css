@@ -257,6 +257,18 @@ body{
     max-width:550px;
 }
 
+nav{
+    margin:25px 0px;
+    width: 100%;
+}
+
+/* span{
+    display: inline-block;
+    margin:10px 10px;
+    font-size: 25px;
+    
+} */
+
 .footer{
     padding:5px;
     max-width:550px;
